@@ -1,0 +1,33 @@
+.img_mobile {
+    width: 100%;
+}
+#main {
+    position: absolute;
+    top: 0;
+    .flex{
+    display: flex;
+    &-ai-c {
+        align-items: center;
+    }
+}
+.location_link {
+    color: white;
+    background: $almostBlack;
+    padding: 1.5rem;
+    font-family: 'Big Shoulders Display', cursive; 
+    font-size: 1.25rem;
+    letter-spacing: 3.64px;
+}
+#arrowBlock {
+    right: 0;
+    top: 0;
+    background: $gold;
+    width: 3.5rem;
+    height: 4.5rem;
+    padding: 1.25rem;
+}
+.right_arrow {
+    position: absolute;
+    left: 1.5rem;
+}
+}

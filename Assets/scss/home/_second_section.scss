@@ -1,0 +1,36 @@
+#second_section  {
+    h1 {
+    font-family: 'Big Shoulders Display', cursive; 
+    font-size: 50px;
+    color: $almostBlack;
+    margin-top: 1.6875rem;
+    margin-bottom: 1.875rem;
+    }
+}
+@media (max-width: 39.9375rem) { 
+    #second_section {
+        .img_mobile {
+            margin-top: 7.4375rem;
+        }
+    }
+}
+
+@media (min-width: 40rem) and (max-width: 63.9375rem) { 
+    #second_section {
+        display: flex;
+        flex-direction: row-reverse;
+        img {
+            padding-left: 16px
+        }
+    }
+    #group_text {
+        width: 30%;
+        position: absolute;
+        left: 5%;
+        p {
+            font-family: 'Outfit', sans-serif;
+            font-size: $font-med;
+            margin-top : -1rem;
+        }
+    }
+}

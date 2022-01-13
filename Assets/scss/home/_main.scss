@@ -1,0 +1,96 @@
+@media (max-width: 39.9375rem) { 
+    .img_mobile {
+        width: 100%
+    }
+    @media (min-width: 40rem) and (max-width: 63.9375rem) { 
+        #main {
+                position: absolute;
+                top: 7%;
+                width: 50%;
+                left: 45%;
+                h1 {
+                    margin-top: 4rem;
+                }
+        }
+    }
+    // #main {
+    //     h1 {
+    //         font-family: 'Big Shoulders Display', cursive; 
+    //         font-size: 60px;
+    //         margin: 30px 0 40px 0;
+    //         line-height: 1.2;
+    //         color: $almostBlack;
+    //     }
+    //     p {
+    //         font-family: 'Outfit', sans-serif;
+    //         font-size: $font-med;
+    //         line-height: 1.5;
+    //     }
+    //     .flex{
+    //         display: flex;
+    //         position: relative;
+    //         &-ai-c {
+    //             align-items: center;
+    //         }
+    //     }
+    //     .location_link {
+    //         color: white;
+    //         background: $almostBlack;
+    //         padding: 1.5rem;
+    //         font-family: 'Big Shoulders Display', cursive; 
+    //         font-size: 1.25rem;
+    //         letter-spacing: 3.64px;
+    //     }
+    //     #arrowBlock {
+    //         right: 0;
+    //         top: 0;
+    //         background: $gold;
+    //         width: 3.5rem;
+    //         height: 4.5rem;
+    //         padding: 1.25rem;
+    //     }
+    //     .right_arrow {
+    //         margin-left: -2rem;
+    //     }
+    // }
+}
+#main {
+    h1 {
+        font-family: 'Big Shoulders Display', cursive; 
+        font-size: 60px;
+        margin: 30px 0 40px 0;
+        line-height: 1.2;
+        color: $almostBlack;
+    }
+    p {
+        font-family: 'Outfit', sans-serif;
+        font-size: $font-med;
+        line-height: 1.5;
+    }
+    .flex{
+        display: flex;
+        position: relative;
+        &-ai-c {
+            align-items: center;
+        }
+    }
+    .location_link {
+        color: white;
+        background: $almostBlack;
+        padding: 1.5rem;
+        font-family: 'Big Shoulders Display', cursive; 
+        font-size: 1.25rem;
+        letter-spacing: 3.64px;
+    }
+    #arrowBlock {
+        right: 0;
+        top: 0;
+        background: $gold;
+        width: 3.5rem;
+        height: 4.5rem;
+        padding: 1.25rem;
+    }
+    .right_arrow {
+        margin-left: -2rem;
+    }
+}

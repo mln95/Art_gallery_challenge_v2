@@ -1,0 +1,131 @@
+html {
+  height: 100%;
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.img_mobile {
+  width: 100%;
+}
+
+#main {
+  position: absolute;
+  top: 0;
+}
+
+#main .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main .flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main .location_link {
+  color: white;
+  background: #151515;
+  padding: 1.5rem;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 1.25rem;
+  letter-spacing: 3.64px;
+}
+
+#main #arrowBlock {
+  right: 0;
+  top: 0;
+  background: #D5966C;
+  width: 3.5rem;
+  height: 4.5rem;
+  padding: 1.25rem;
+}
+
+#main .right_arrow {
+  position: absolute;
+  left: 1.5rem;
+}
+
+#second_section {
+  background: #151515;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  padding: 1.5rem 1rem;
+}
+
+#second_section h1 {
+  margin: 0;
+  color: white;
+  font-size: 60px;
+  font-family: 'Big Shoulders Display', cursive;
+  line-height: 1.2;
+  padding: 30px 0 40px 0;
+}
+
+#second_section h2 {
+  color: #D5966C;
+  margin: 0;
+  font-size: 40px;
+  font-family: 'Big Shoulders Display', cursive;
+  line-height: 1.2;
+}
+
+#second_section p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.9;
+  padding-bottom: 1rem;
+}
+
+#third_section {
+  background: #D5966C;
+  padding: 3rem 2rem 2.5rem  2rem;
+}
+
+#third_section h2 {
+  margin: 0;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+#third_section p {
+  margin-top: 2rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#third_section #social_network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3rem 0;
+}
+
+#third_section img {
+  width: 9%;
+}
+
+#third_section img:not(:last-child) {
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

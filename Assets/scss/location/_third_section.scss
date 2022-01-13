@@ -1,0 +1,24 @@
+#third_section {
+    background: $gold;
+    padding: 3rem 2rem 2.5rem  2rem;
+    h2 {
+        margin: 0;
+        font-family: 'Big Shoulders Display', cursive; 
+    }
+    p {
+        margin-top: 2rem;
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+    #social_network  {
+        display: flex;
+        margin: 3rem 0;
+    }
+    img {
+        width: 9%;
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+}

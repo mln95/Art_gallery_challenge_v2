@@ -1,0 +1,44 @@
+#fourth_section {
+    background: $almostBlack;
+    padding: 1.25rem 1rem;
+    margin-bottom: 6rem;
+    h1 {
+    font-family: 'Big Shoulders Display', cursive; 
+    font-size: 50px;
+    color: $almostBlack;
+    margin-top: 1.6875rem;
+    margin-bottom: 1.875rem;
+    color: white;
+ }
+ p {
+    font-family: 'Outfit', sans-serif;
+    font-size: $font-med;
+    line-height: 1.5;
+    color: white;
+ }
+}
+
+@media (min-width: 40rem) and (max-width: 63.9375rem) { 
+   #fourth_section {
+      width: 21rem;
+      // position: absolute;
+      // right: 0;
+      // top: 75%;
+      position: absolute;
+      padding-left: 1rem;
+      top: 134%;
+      right: 2rem;
+      }
+}
+
+@media (min-width: 40rem) and (max-width: 63.9375rem) { 
+   footer {
+      display: flex;
+      justify-content: space-between;
+      p {
+         width: 50%;
+         margin: 0;
+         padding: 0 2rem;
+      }
+   }
+}

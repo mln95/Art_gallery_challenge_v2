@@ -1,0 +1,59 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    color: $darkGray;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none
+}
+
+
+
+#main {
+    p {
+        font-family: 'Outfit'
+    }
+}
+
+.background_image {
+    display: block;
+}
+@media (max-width: 39.9375rem) { 
+    .img_desktop, .img_tablet {
+        display: none;
+    }
+    #global {
+        padding: 0 1em;
+    }
+}
+
+@media (min-width: 40rem) and (max-width: 63.9375rem) { 
+    #global {
+        padding: 0 2rem;
+    }
+    .img_desktop, .img_mobile {
+        display: none;
+    }
+    .img_tablet {
+        width: 50%;
+    }
+    #main {
+            position: absolute;
+            top: 7%;
+            width: 50%;
+            left: 45%;
+            h1 {
+                margin-top: 4rem;
+            }
+    }
+}
+

@@ -1,0 +1,27 @@
+#second_section {
+    background: $almostBlack;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    padding: 1.5rem 1rem;
+    h1 {
+        margin: 0;
+        color: white;
+        font-size: 60px;
+        font-family: 'Big Shoulders Display', cursive; 
+        line-height: 1.2;
+        padding: 30px 0 40px 0;
+    }
+    h2 {
+        color: $gold;
+        margin: 0;
+        font-size: 40px;
+        font-family: 'Big Shoulders Display', cursive; 
+        line-height: 1.2;
+    }
+    p {
+        font-family: 'Outfit', sans-serif;
+        font-size: $font-big;
+        line-height: 1.9;
+        padding-bottom: 1rem;
+    }
+}
